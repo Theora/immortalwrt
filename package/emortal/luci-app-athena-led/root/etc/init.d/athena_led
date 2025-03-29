@@ -21,7 +21,7 @@ start_service() {
   config_get lightLevel $cfg 'lightLevel' '5'
   config_get option $cfg 'option' 'date timeBlink'
   config_get value $cfg 'value' 'abcdefghijklmnopqrstuvwxyz0123456789+-*/=.:：℃'
-  config_get url $cfg 'url' 'https://www.baidu.com'
+  config_get url $cfg 'url' 'https://www.google.com'
   config_get tempFlag $cfg 'tempFlag' '4'
 
   procd_open_instance
