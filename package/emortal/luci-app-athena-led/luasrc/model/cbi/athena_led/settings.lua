@@ -59,7 +59,7 @@ customValue.placeholder = translate("Enter your message here")
 customValue.description = translate("Set the custom message to display on the LED screen, Only effective on 'Display Type String'")
 
 url = s:option(Value, "url", translate("api url for get content"))
-url.default = "http://www.baidu.com"
+url.default = "http://www.google.com"
 url.rmempty = false
 url.placeholder = translate("Enter your api url here")
 url.description = translate("api url for get content des")
