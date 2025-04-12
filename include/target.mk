@@ -32,6 +32,8 @@ DEFAULT_PACKAGES:=\
 	uci \
 	uclient-fetch \
 	urandom-seed \
+  geoview \
+  shadowsocks-libev \
 	urngd
 
 ##@
@@ -70,7 +72,9 @@ DEFAULT_PACKAGES.tweak:=\
 	luci-app-package-manager \
 	luci-compat \
 	luci-lib-base \
-	luci-lib-ipkg
+	luci-lib-ipkg \
+  luci-app-diskman \
+  luci-app-passwall2 
 
 ifneq ($(DUMP),)
   all: dumpinfo
