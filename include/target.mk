@@ -64,6 +64,8 @@ DEFAULT_PACKAGES.router:=\
 DEFAULT_PACKAGES.tweak:=\
 	autocore \
 	block-mount \
+  lucky \
+  luci-app-lucky \
 	default-settings-chn \
 	kmod-nf-nathelper \
 	kmod-nf-nathelper-extra \
